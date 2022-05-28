@@ -44,7 +44,7 @@
             <ul class="navbar-nav ml-auto">
 
 
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="registro">Registro usuario</a></li>
                 <li class="nav-item"><a class="nav-link" href="about">Sobre nosotros</a></li>
                 <li class="nav-item"><a class="nav-link" href="500.html">Preguntas frecuentes</a></li>

@@ -57,6 +57,7 @@
 
                 <ul class="navbar-nav ml-auto">
 
+                    <li class="nav-item"><a class="nav-link active" href="welcome">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="register">Registro usuario</a></li>
                     <li class="nav-item"><a class="nav-link" href="about">Sobre nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="carrito">Productos</a></li>
