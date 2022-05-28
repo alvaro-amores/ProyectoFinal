@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Inicio</title>
+<title>Inicio-3</title>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="main.css">
@@ -57,12 +57,10 @@
 
                 <ul class="navbar-nav ml-auto">
 
-
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="registro">Registro usuario</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register">Registro usuario</a></li>
                     <li class="nav-item"><a class="nav-link" href="about">Sobre nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="carrito">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="login">Inicia sesion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login">Iniciar sesión</a></li>
 
                 </ul>
 
