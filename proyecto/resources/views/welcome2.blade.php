@@ -39,33 +39,27 @@
             </button>
             <!--rem tamaño icon-->
             <!--https://mdbootstrap.com/docs/standard/content-styles/icons/-->
-            <div class="d-flex my-5 mx-auto justify-content-center">
-            <button type="button" class="btn btn-light"> <a href="compras"><i class="bi bi-cart my-auto mx-2" ></i></a></button>
-            </div>
-
-
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <div class="busqueda">
-                        <div class="input-group" id="search" width>
-                                <input type="search" class="form-control rounded" placeholder="Buscar" aria-label="buscar"   />
-                                <button type="button" class="btn btn-outline-primary" ></button>
-                        </div>
+            
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="register">Registro usuario</a></li>
+                <li class="nav-item"><a class="nav-link" href="about">Sobre nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="carrito">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="home">Perfil</a></li>
+            </ul>
+            
+            <ul class="navbar-nav ml-auto">
+                <div class="busqueda">
+                    <div class="input-group" id="search" width>
+                            <input type="search" class="form-control rounded" placeholder="Buscar" aria-label="buscar"   />
+                            <button type="button" class="btn btn-outline-primary" ></button>
                     </div>
-                </ul>
+                </div>
+            </ul>
 
-                <ul class="navbar-nav ml-auto">
-
-                    <li class="nav-item"><a class="nav-link" href="register">Registro usuario</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about">Sobre nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="carrito">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="login">Iniciar sesión</a></li>
-
-                </ul>
-
-
+            <div class="d-flex my-5 mx-auto justify-content-center">
+                <button type="button" class="btn btn-light"> <a href="compras"><i class="bi bi-cart my-auto mx-2" ></i></a></button>
             </div>
+
         </div>
     </nav>
     <!-- d-block hace referencia a display block w-100 = ancho al 100% -->
