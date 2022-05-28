@@ -37,3 +37,16 @@ Route::get('/carrito', function () {
 Route::get('/compras', function () {
     return view('compras');
 });
+Route::get('/welcome2', function () {
+    return view('welcome2');
+});
+Route::get('/register', function () {
+    return view('register');
+});
+Route::get('/home', function () {
+    return view('home');
+});
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
